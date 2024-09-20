@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Vermin-vibes';
-    src: url(Vermin_Vibes.ttf);
+    src: url(Fonts/vermin-vibes.ttf);
 }
 
 *{
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-family: Arial, Helvetica, sans-serif;
 font-size: 1em;
 }
 
@@ -16,30 +16,40 @@ body{
     background-size: 500%;
 }
 
-#logo{
+.logo{
     text-align: center;
+    cursor: pointer;
 }
 
-#logo img{
+.logo img{
     width: 150px;
     height: 150px;
     border-radius: 50%;
 }
 
+.logo img:hover{
+    opacity: 0.75;
+}
+
+.logo img:active{
+    width: 500px;
+    height: 500px;
+}
+
 h1{
-    font-family: 'Vermin-vibes';
+    font-family: Vermin-vibes;
     padding: 1rem;
-    margin: 28px;
+    margin: 25px;
     text-align: center;
-    font-weight: bolder;
-    font-size: 2.5em;
-    color: hsl(83.63deg 92.21% 12.13%);
+    font-weight: normal;
+    font-size: 3em;
+    color: hsl(283.57deg 87.7% 25%);
 }
 
 h2{
     font-size: 1.5em;
     font-weight: 600;
-    color: hsl(270.74deg 42.59% 31.36%);
+    color: hsl(130.71deg 42.59% 31.36%);
 }
 
 .user-bio{
@@ -52,6 +62,10 @@ h2{
 
 .bio{
     color: hsl(0deg 0.56% 35.1%);
+}
+
+.connect{
+    text-align: center; padding: 0px;
 }
 
 .hyperlink-logo{
